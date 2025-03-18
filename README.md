@@ -5,16 +5,22 @@ The primary dataset used for this project is the Crowd-sourced Emotional Multimo
 Emotions in the dataset: sad, angry, disgust, neutral, happy, fear
 Dataset Composition: The dataset includes 7,442 audio samples from 91 actors, capturing a diverse range of expressions with different intensity levels and sentences spoken in various emotional tones.
 
+
 Emotions Count in the Dataset:
+
 <img width="367" alt="image" src="https://github.com/user-attachments/assets/4c528105-aa24-49e9-8bc0-1722e7518011" />
 
 
 Waveplot of a Sample Audio:
 A waveplot shows the loudness of audio over time: 
+
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/ed3ae3da-d4ca-4816-83a2-fdd57491d61b" />
+
 Spectrogram of a Sample Audio:
 A spectrogram visualizes sound frequencies over time: 
+
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/05080e90-6fc8-41d8-8c9a-9d0350ccc1d3" />
+
 Project Overview:
 The model used in this project is an MLPClassifier, which is trained on features extracted from the audio files, such as MFCC (Mel Frequency Cepstral Coefficients) and mel-spectrogram. These features enable the model to detect nuanced differences in speech patterns associated with different emotions.
 Feature Extraction:
